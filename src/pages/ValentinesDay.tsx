@@ -21,6 +21,9 @@ const ValentineProposal = () => {
   return (
     <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8 text-center space-y-6">
+        <h1 className="text-3xl font-bold text-gray-800 mt-6">
+             To Zhi Min {noCount > 3 ? '(Pls stop clicking no)' : ''}
+        </h1>
         <div className="flex justify-center">
           <Heart className="w-24 h-24 text-red-500 animate-pulse" />
         </div>
